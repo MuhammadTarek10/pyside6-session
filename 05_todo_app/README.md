@@ -97,4 +97,4 @@ Drag the dock to the right, restart, and it stays there.
 3. Bonus: make the title editable inline (`ItemIsEditable` in `flags()`, handle `EditRole` in `setData()`,
    change `editTriggers` in Designer).
 
-➡️ Answer: [`answers/`](answers/README.md)
+🧩 Starter code: [`starter/`](starter/README.md) · ➡️ Answer: [`answers/`](answers/README.md)

@@ -87,4 +87,4 @@ You can also call `widget.setStyleSheet(...)` for a single widget, or set `style
    use it in Designer, rebuild, and rotate with `QTransform().rotate(90)`.
 2. Create `styles/dark.qss` and add a *View → Dark mode* checkable action that swaps stylesheets.
 
-➡️ Answer: [`answers/`](answers/README.md)
+🧩 Starter code: [`starter/`](starter/README.md) · ➡️ Answer: [`answers/`](answers/README.md)

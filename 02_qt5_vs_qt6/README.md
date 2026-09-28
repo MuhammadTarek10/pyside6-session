@@ -65,4 +65,4 @@ w = QDesktopWidget().screenGeometry().width()
 app.exec_()
 ```
 
-➡️ Answer: [`answers/`](answers/README.md)
+🧩 Starter code: [`starter/`](starter/README.md) · ➡️ Answer: [`answers/`](answers/README.md)

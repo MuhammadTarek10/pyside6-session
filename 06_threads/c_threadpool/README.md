@@ -50,4 +50,4 @@ pool.start(Job(1))                      # the pool takes ownership and deletes t
 Add a **Cancel** button: give each `Job` a shared `threading.Event` and have `run()` return early
 when it's set. Also call `pool.clear()` so queued jobs never start.
 
-➡️ Answer: [`answers/`](answers/README.md)
+🧩 Starter code: [`starter/`](starter/README.md) · ➡️ Answer: [`answers/`](answers/README.md)

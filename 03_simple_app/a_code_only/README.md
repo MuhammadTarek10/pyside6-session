@@ -57,4 +57,4 @@ That's why we keep `self.name_edit` as an attribute: we need it later, not to ke
 Add a `QComboBox` with "Hello / Hi / Welcome" and use the selected greeting.
 Bonus: disable **Clear** when the field is empty.
 
-➡️ Answer: [`answers/`](answers/README.md)
+🧩 Starter code: [`starter/`](starter/README.md) · ➡️ Answer: [`answers/`](answers/README.md)

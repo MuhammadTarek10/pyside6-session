@@ -20,8 +20,11 @@ mistakes, exercise). Read them in order.
 
 Quick reference: [`CHEATSHEET.md`](CHEATSHEET.md)
 
-**Exercises:** every step's README ends with an *Exercise*, and its solution lives in that step's
-`answers/` folder (runnable code + a README explaining the solution and a review checklist).
+**Exercises:** every step's README ends with an *Exercise*. Each step has:
+- `starter/`: a runnable copy of the step with `TODO(exercise)` markers. **Hand this out.**
+- `answers/`: the solution, a README explaining it, and a checklist for reviewing attendees' work.
+
+When they're done, attendees can check their work with `diff -r starter answers`. (01 is reading only, so it has no starter.)
 
 ## Setup
 

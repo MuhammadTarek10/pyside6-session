@@ -86,4 +86,4 @@ Rule of thumb: **processing frames → OpenCV; just preview/record → QtMultime
 3. Bonus: detect faces and draw rectangles before converting to QImage. Note that OpenCV 5 removed
    `cv2.CascadeClassifier`, so use `cv2.FaceDetectorYN` with the YuNet model in `answers/models/`.
 
-➡️ Answer: [`answers/`](answers/README.md)
+🧩 Starter code: [`starter/`](starter/README.md) · ➡️ Answer: [`answers/`](answers/README.md)

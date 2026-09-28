@@ -1,0 +1,9 @@
+/* TODO(exercise 2): a dark theme.
+   Tip: copy the selectors from style.qss and change the colors.
+   Don't forget to register this file in resources.qrc under the /styles prefix. */
+
+QMainWindow {
+    background: #1a202c;
+}
+
+/* TODO: QToolBar, QToolButton (+ :hover, :checked), QScrollArea, QLabel#imageLabel, QStatusBar, QMenuBar … */

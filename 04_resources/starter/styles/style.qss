@@ -1,0 +1,43 @@
+/* Qt Style Sheets: CSS-like syntax, Qt-specific selectors and properties. */
+
+QMainWindow {
+    background: #f7fafc;
+}
+
+QToolBar {
+    background: #ffffff;
+    border-bottom: 1px solid #e2e8f0;
+    spacing: 6px;
+    padding: 4px;
+}
+
+QToolButton {
+    border: 1px solid transparent;
+    border-radius: 6px;
+    padding: 4px;
+}
+
+QToolButton:hover {
+    background: #ebf4ff;
+    border-color: #90cdf4;
+}
+
+QToolButton:pressed {
+    background: #bee3f8;
+}
+
+QScrollArea {
+    border: none;
+    background: #edf2f7;
+}
+
+/* Select by objectName with #, just like CSS ids */
+QLabel#imageLabel {
+    background: #edf2f7;
+}
+
+QStatusBar {
+    background: #ffffff;
+    border-top: 1px solid #e2e8f0;
+    color: #4a5568;
+}

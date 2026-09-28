@@ -31,4 +31,4 @@ for `run_task()` to return.
 Replace the `for` loop with a `QTimer` that advances the progress bar by 20% every second (no threads, no sleep).
 Why does this stay responsive?
 
-➡️ Answer: [`answers/`](answers/README.md)
+🧩 Starter code: [`starter/`](starter/README.md) · ➡️ Answer: [`answers/`](answers/README.md)
