@@ -78,3 +78,5 @@ python 01_pyqt_vs_pyside/same_app_pyside6.py
 ## Exercise
 Take `same_app_pyside6.py` and, *without looking at the PyQt file*, list every line you would
 change to port it to PyQt6. Then check with `diff`.
+
+➡️ Answer: [`answers/`](answers/README.md)

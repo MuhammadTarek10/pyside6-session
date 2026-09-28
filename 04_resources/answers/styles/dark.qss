@@ -1,0 +1,44 @@
+/* Dark theme: same selectors as style.qss, different colors. */
+
+QMainWindow, QMenuBar, QMenu {
+    background: #1a202c;
+    color: #e2e8f0;
+}
+
+QMenuBar::item:selected, QMenu::item:selected {
+    background: #2d3748;
+}
+
+QToolBar {
+    background: #2d3748;
+    border-bottom: 1px solid #4a5568;
+    spacing: 6px;
+    padding: 4px;
+}
+
+QToolButton {
+    border: 1px solid transparent;
+    border-radius: 6px;
+    padding: 4px;
+    color: #e2e8f0;
+}
+
+QToolButton:hover {
+    background: #4a5568;
+    border-color: #718096;
+}
+
+QToolButton:checked, QToolButton:pressed {
+    background: #2c5282;
+}
+
+QScrollArea, QLabel#imageLabel {
+    border: none;
+    background: #171923;
+}
+
+QStatusBar {
+    background: #2d3748;
+    border-top: 1px solid #4a5568;
+    color: #a0aec0;
+}

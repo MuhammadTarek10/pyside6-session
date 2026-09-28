@@ -67,3 +67,5 @@ the worker-object pattern is clearer and reusable.
 Add an `error = Signal(str)` to the worker. Make it raise on step 50 when a "Simulate error"
 checkbox is ticked, catch the exception inside `run()`, emit `error`, and show a `QMessageBox`
 **from the GUI thread**.
+
+➡️ Answer: [`answers/`](answers/README.md)

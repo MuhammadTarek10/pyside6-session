@@ -83,5 +83,7 @@ Rule of thumb: **processing frames → OpenCV; just preview/record → QtMultime
 ## Exercise
 1. Add an **Edges** checkbox that applies `cv2.Canny(gray, 100, 200)` (show it as Grayscale8).
 2. Add a **Record** button that writes frames with `cv2.VideoWriter` *inside the worker thread*.
-3. Bonus: detect faces with `cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")`
-   and draw rectangles before converting to QImage.
+3. Bonus: detect faces and draw rectangles before converting to QImage. Note that OpenCV 5 removed
+   `cv2.CascadeClassifier`, so use `cv2.FaceDetectorYN` with the YuNet model in `answers/models/`.
+
+➡️ Answer: [`answers/`](answers/README.md)

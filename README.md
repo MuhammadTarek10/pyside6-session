@@ -20,6 +20,9 @@ mistakes, exercise). Read them in order.
 
 Quick reference: [`CHEATSHEET.md`](CHEATSHEET.md)
 
+**Exercises:** every step's README ends with an *Exercise*, and its solution lives in that step's
+`answers/` folder (runnable code + a README explaining the solution and a review checklist).
+
 ## Setup
 
 ```bash

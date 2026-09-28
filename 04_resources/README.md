@@ -86,3 +86,5 @@ You can also call `widget.setStyleSheet(...)` for a single widget, or set `style
 1. Add a **Rotate** action with a new SVG icon: add it to `icons/`, register it in `resources.qrc`,
    use it in Designer, rebuild, and rotate with `QTransform().rotate(90)`.
 2. Create `styles/dark.qss` and add a *View → Dark mode* checkable action that swaps stylesheets.
+
+➡️ Answer: [`answers/`](answers/README.md)

@@ -3,5 +3,6 @@ venv/
 __pycache__/
 *.pyc
 .DS_Store
-07_camera/captures/
-05_todo_app/tasks.json
+captures/
+tasks.json
+session/

@@ -68,3 +68,5 @@ This file does `nameEdit.returnPressed() → greetButton.click()`. Look for
 ## Exercise
 In Designer, add a `QCheckBox` "Shout" (`shoutCheck`). Regenerate, then make `greet()` use
 `.upper()` when it's checked. **Do not touch `ui_greeter.py`.**
+
+➡️ Answer: [`answers/`](answers/README.md)

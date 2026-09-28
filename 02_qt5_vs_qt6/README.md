@@ -64,3 +64,5 @@ label = QLabel("hi"); label.setAlignment(Qt.AlignCenter)
 w = QDesktopWidget().screenGeometry().width()
 app.exec_()
 ```
+
+➡️ Answer: [`answers/`](answers/README.md)
